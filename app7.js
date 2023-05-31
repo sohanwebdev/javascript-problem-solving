@@ -1,0 +1,12 @@
+//calculate the full an array data
+function calculate(number){
+  let finalData = 0;
+  for(let i = 0; i < number.length; i++){
+    let value = number[i];
+    finalData = finalData + value;
+  }
+  return finalData;
+}
+
+let numbers = calculate([1, 4, 5, 2, 60, 56, 34, 23]);
+console.log(numbers);
